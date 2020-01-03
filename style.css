@@ -1,0 +1,44 @@
+body{
+  background-color: #333;
+}
+.container{
+  max-width: 960px;
+  margin:  auto;
+  border: 1px dotted steelblue;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: snow;
+}
+.container h1{
+  color: teal;
+  text-align: center;
+}
+.container .notes{
+  margin: auto;
+  font-weight: 600;
+  width: 40%;
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+#notes_form input{
+  margin: auto;
+  margin-left: 35%;
+  width: 30%;
+  border-color: darkseagreen;
+  border-radius: 5px;
+}
+
+.container .button{
+  padding: 1rem;
+}
+#notes_form input[type=submit]{
+  margin: auto;
+  margin-left: 45%;
+  width: 10%;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: chocolate;
+  font-weight: bold;
+}
